@@ -122,7 +122,6 @@ func PaymentDetailsHandler(c *gin.Context) {
 	}
 
 	c.JSON(http.StatusOK, res)
-
 	return
 }
 
@@ -185,7 +184,6 @@ func RedirectHandler(c *gin.Context) {
 }
 
 /* Utils */
-
 func findCurrency(typ string) string {
 	switch typ {
 	case "ach":
