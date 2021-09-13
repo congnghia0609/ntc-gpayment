@@ -12,6 +12,11 @@ CLIENT_KEY="your_client_key_here"
 
 ### B. Start the server:
 ```shell
+## Install library dependencies
+export GO111MODULE=on
+go mod tidy
+
+## Start server
 go run -v .
 ```
 
