@@ -70,7 +70,6 @@ async function callServer(url, data) {
       "Content-Type": "application/json",
     },
   });
-
   return await res.json();
 }
 
