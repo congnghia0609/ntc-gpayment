@@ -75,11 +75,9 @@ a:hover {
   -ms-user-select: all;
   user-select: all;
 }
-
 /* end General page body */
 
 /* Index page */
-
 .main-container {
   margin: auto;
   max-width: 1048px;
