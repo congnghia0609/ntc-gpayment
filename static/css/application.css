@@ -302,11 +302,9 @@ a:hover {
     padding-top: 0;
   }
 }
-
 /* end of Cart preview page */
 
 /* Payment page */
-
 #payment-page {
   display: flex;
   flex-direction: column;
